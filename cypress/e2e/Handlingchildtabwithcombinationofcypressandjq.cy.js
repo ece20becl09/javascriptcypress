@@ -1,6 +1,6 @@
 describe('Handling child tab with combination of cypress and jquery commands', () => {
           it('Handling child tab with combination of cypress and jquery commands', () => {
-                    cy.visit("https://rahulshettyacademy.com/AutomationPractice/")
+                    cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
 
                     cy.wait(2000)
                     //To get the url of child tab using jquery commands and open in the same tab the child tab url
