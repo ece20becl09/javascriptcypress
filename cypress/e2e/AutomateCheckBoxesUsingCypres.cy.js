@@ -17,7 +17,6 @@ describe('Handling automate check boxes using cypress', () => {
         cy.get("input[type='checkbox']").uncheck(['option1', 'option2', 'option3'])
 
 
-
     })
 
 })
