@@ -8,9 +8,10 @@ module.exports = defineConfig({
     html: false,
     json: true
   },
+
   e2e: {
     setupNodeEvents(on, config) {
-      // node events
+      // implement node event listeners here
     }
   }
 });
